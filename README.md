@@ -15,7 +15,16 @@ To do.
 
 ## Who are we
 
-To do.
+A group of researchers from Aalborg University and the Danish Technical University.
+
+In collaboration with: 
+
+AAU TantLab
+
+University of Groningnen 
+
+ADD (Algorithms, Data, and Democracy)
+
 
 ## Sponsors
 
