@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Grounding AI
+layout: home
+title: "Grounding AI"
 nav: 
   - About
   - Methodology
