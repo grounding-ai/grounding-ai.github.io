@@ -1,5 +1,7 @@
 # Current status
 
+- Edit the index.md, if you want to change th page. 
+
 We are in the process of printing the *Grounded AI Map*.
 Upcoming: workshop with the Danish Technical Museum for a 2025 exhibition.
 
