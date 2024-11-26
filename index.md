@@ -9,7 +9,6 @@ nav:
 
 # Welcome to Grounding AI
 
-Your resource for exploring AI grounding methodologies.
 
 ## Latest News
 
