@@ -1,15 +1,27 @@
----
-layout: home
----
-<header style="display: flex; justify-content: space-between; align-items: center; padding: 20px;">
-  <div>
-    <h1 style="margin: 0;">{{ page.title }}</h1>
-  </div>
-  <nav>
-    <a href="/">Grounding AI</a> |
-    <a href="/_pages/about">About</a> |
-    <a href="/_pages/who-are-we">Who Are We</a> |
-    <a href="/_pages/methodology">Methodology</a>
-  </nav>
-</header>
-{{ content }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <nav style="text-align: center; margin: 20px 0;">
+      <a href="/">Grounding AI</a> |
+      <a href="/about/">About</a> |
+      <a href="/who-are-we/">Who Are We</a> |
+      <a href="/methodology/">Methodology</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer style="text-align: center; margin: 20px 0;">
+    <p>&copy; {{ site.time | date: "%Y" }} Grounding AI. All rights reserved.</p>
+  </footer>
+</body>
+</html>
