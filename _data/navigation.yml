@@ -1,0 +1,8 @@
+# main links
+main:
+  - title: "Overview"
+    url: /
+  - title: "Notebooks"
+    url: /nb/
+  - title: "Examples"
+    url: /examples/
