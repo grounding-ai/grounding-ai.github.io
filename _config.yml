@@ -3,21 +3,16 @@ title: Grounding AI
 description: AI Atlas of AI
 
 # Theme settings
-remote_theme: pages-themes/minima@v2.5.1
+theme: minima
 plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Build settings
 markdown: kramdown
 
-# Minima theme settings
-minima:
-  header_pages:
-    - about.md
-    - methodology.md
-    - who-are-we.md
-  
-# Social links (optional)
-github_username: grounding-ai
+# Navigation
+header_pages:
+  - about.md
+  - methodology.md
+  - who-are-we.md
