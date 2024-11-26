@@ -1,27 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-</head>
-<body>
-  <header>
-    <nav style="text-align: center; margin: 20px 0;">
-      <a href="/">Grounding AI</a> |
-      <a href="/about/">About</a> |
-      <a href="/who-are-we/">Who Are We</a> |
-      <a href="/methodology/">Methodology</a>
-    </nav>
-  </header>
+---
+layout: default
+---
 
-  <main>
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <ul class="visible-links">
+          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+          <li><a href="{{ '/who-are-we/' | relative_url }}">Who Are We</a></li>
+          <li><a href="{{ '/methodology/' | relative_url }}">Methodology</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<div id="main" role="main">
+  <div class="page__content">
     {{ content }}
-  </main>
+  </div>
+</div>
 
-  <footer style="text-align: center; margin: 20px 0;">
-    <p>&copy; {{ site.time | date: "%Y" }} Grounding AI. All rights reserved.</p>
+<div class="page__footer">
+  <footer>
+    <div class="page__footer-copyright">
+      © {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.
+    </div>
   </footer>
-</body>
-</html>
+</div>
