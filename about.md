@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Home
+nav: 
+  - About
+  - Methodology
+  - Who Are We
 ---
 
 # About the Project
