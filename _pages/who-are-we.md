@@ -14,4 +14,3 @@ A group of researchers from Aalborg University and the Danish Technical Universi
 - [Dario Rodighiero](https://dariorodighiero.com) (University of Groningen)
 - [ADD (Algorithms, Data, and Democracy)](https://algorithms.dk)
 
-[Home](index.md) | [About](about.md) | [Methodology](methodology.md)
