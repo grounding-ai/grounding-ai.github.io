@@ -1,0 +1,11 @@
+title: Grounding AI Project
+description: Your resource for exploring AI grounding methodologies
+
+# Navigation
+navigation:
+  - title: About
+    url: /about
+  - title: Methodology
+    url: /methodology
+  - title: Who Are We
+    url: /who-are-we
