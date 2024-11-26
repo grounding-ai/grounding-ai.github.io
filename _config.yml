@@ -11,8 +11,12 @@ plugins:
 # Build settings
 markdown: kramdown
 
+include:
+  - _pages
+  
 # Navigation
 header_pages:
   - about.md
   - methodology.md
   - who-are-we.md
+  
