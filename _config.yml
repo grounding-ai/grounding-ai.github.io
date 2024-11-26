@@ -1,6 +1,23 @@
-title: Grounding AI Project
+# Site settings
+title: Grounding AI
 description: AI Atlas of AI
-remote_theme: pages-themes/minimal@v0.2.0
+
+# Theme settings
+remote_theme: pages-themes/minima@v2.5.1
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Build settings
 markdown: kramdown
+
+# Minima theme settings
+minima:
+  header_pages:
+    - about.md
+    - methodology.md
+    - who-are-we.md
+  
+# Social links (optional)
+github_username: grounding-ai
