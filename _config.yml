@@ -1,22 +1,52 @@
 # Site settings
 title: Grounding AI
 description: AI Atlas of AI
+lang: en
+
+# URL settings
+baseurl: "" # Leave blank if deploying to root, e.g., username.github.io
+url: "https://yourusername.github.io" # Replace with your GitHub Pages site URL
 
 # Theme settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "sunrise" # Choose skin: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+  - jekyll-archives
+  - jekyll-paginate
 
 # Build settings
 markdown: kramdown
-
+highlighter: rouge
 include:
   - _pages
-  
-# Navigation
+
+# Navigation settings
 header_pages:
+  - index.md
   - about.md
   - methodology.md
   - who-are-we.md
-  
+
+# Social links (optional)
+social_links:
+  - name: "GitHub"
+    url: "https://github.com/grounding-ai"
+    icon: "fab fa-github"
+  - name: "Twitter"
+    url: "https://twitter.com/yourhandle"
+    icon: "fab fa-twitter"
+
+# Footer (optional)
+footer:
+  links:
+    - title: "About"
+      url: /about/
+    - title: "Methodology"
+      url: /methodology/
+    - title: "Who We Are"
+      url: /who-are-we/
