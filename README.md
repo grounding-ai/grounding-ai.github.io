@@ -19,13 +19,14 @@ A group of researchers from Aalborg University and the Danish Technical Universi
 
 In collaboration with: 
 
-AAU TantLab
+[AAU TantLab](https://www.en.culture.aau.dk/research/research-groups/tantlab)
 
-ECHO Lab - The Observatory for Human Centered Engineering
+[ECHO Lab - The Observatory for Human Centered Engineering]
 
-University of Groningnen 
+[Dario Rodighiero](https://dariorodighiero.com) (University of Groningnen) 
 
-ADD (Algorithms, Data, and Democracy)
+[ADD (Algorithms, Data, and Democracy)](https://algorithms.dk)
+
 
 
 ## Sponsors
