@@ -21,6 +21,8 @@ In collaboration with:
 
 AAU TantLab
 
+ECHO Lab - The Observatory for Human Centered Engineering
+
 University of Groningnen 
 
 ADD (Algorithms, Data, and Democracy)
