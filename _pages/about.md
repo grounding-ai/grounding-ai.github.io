@@ -9,4 +9,3 @@ title: About
 
 To do.
 
-[Home](index.md) | [Who Are We](who-are-we.md) | [Methodology](methodology.md)
