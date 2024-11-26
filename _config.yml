@@ -1,0 +1,6 @@
+title: Grounding AI 
+description: AI Atlas of AI
+theme: jekyll-theme-primer  # or your preferred theme
+
+# Build settings
+markdown: kramdown
