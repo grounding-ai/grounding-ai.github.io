@@ -1,6 +1,6 @@
 # Current status
 
-- Edit the index.md, if you want to change the page. 
+- Edit the index.md, if you want to change the page [Grounding AI](https://grounding-ai.github.io/)
 
 We are in the process of printing the *Grounded AI Map*.
 Upcoming: workshop with the Danish Technical Museum for a 2025 exhibition.
