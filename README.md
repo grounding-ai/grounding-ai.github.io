@@ -52,7 +52,7 @@ To do.
   <p>Paragraph lorem ipsum dolor sit amet</p>
   <p>Other paragraph with <strong>bold</strong>, <em>italic</em> etc.</p>
   <p style="font-family:Monospace">Test with inline style</p>
-  <p>Test with an image: <img src="logo.png"></p>
+  <p>Test with an image: <img src="/Images/logo.png"></p>
 </div>
 
 
