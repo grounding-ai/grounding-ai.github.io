@@ -1,8 +1,8 @@
 # main links
 main:
   - title: "About"
-    url: /
-  - title: "Notebooks"
-    url: /nb/
-  - title: "Examples"
-    url: /examples/
+    url: /_pages/about
+  - title: "Who are we"
+    url: /_pages/who-are-we
+  - title: "Methodology"
+    url: /_pages/methodology
