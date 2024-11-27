@@ -81,34 +81,34 @@ title: Who are we
 
 ## Affiliations
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; max-width: 100%; margin: 2rem auto; padding: 0 1rem;">
-    <div style="text-align: left;">
-        <img src="/assets/images/aau.png" alt="Aalborg Universitet" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
-        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Aalborg Universitet (AAU)</h3>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 4rem; max-width: 100%; margin: 4rem auto; padding: 0 2rem;">
+    <div style="text-align: left; display: flex; flex-direction: column;">
+        <img src="/assets/images/aau.png" alt="Aalborg Universitet" style="width: 100%; max-width: 300px; height: auto; margin-bottom: 1rem;">
+        <h3 style="font-size: 1.2rem; margin: 0.5rem 0;">Aalborg Universitet (AAU)</h3>
     </div>
 
-    <div style="text-align: left;">
-        <img src="/assets/images/tantlab.png" alt="Tantlab" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
-        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Tantlab</h3>
+    <div style="text-align: left; display: flex; flex-direction: column;">
+        <img src="/assets/images/tantlab.png" alt="Tantlab" style="width: 100%; max-width: 300px; height: auto; margin-bottom: 1rem;">
+        <h3 style="font-size: 1.2rem; margin: 0.5rem 0;">Tantlab</h3>
     </div>
 
-    <div style="text-align: left;">
-        <img src="/assets/images/dtu.png" alt="Danmarks Tekniske Universitet" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
-        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Danmarks Tekniske Universitet (DTU)</h3>
+    <div style="text-align: left; display: flex; flex-direction: column;">
+        <img src="/assets/images/dtu.png" alt="Danmarks Tekniske Universitet" style="width: 100%; max-width: 300px; height: auto; margin-bottom: 1rem;">
+        <h3 style="font-size: 1.2rem; margin: 0.5rem 0;">Danmarks Tekniske Universitet (DTU)</h3>
     </div>
 
-    <div style="text-align: left;">
-        <img src="/assets/images/echolab.png" alt="ECHO lab" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
-        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">ECHO lab</h3>
+    <div style="text-align: left; display: flex; flex-direction: column;">
+        <img src="/assets/images/echolab.png" alt="ECHO lab" style="width: 100%; max-width: 300px; height: auto; margin-bottom: 1rem;">
+        <h3 style="font-size: 1.2rem; margin: 0.5rem 0;">ECHO lab</h3>
     </div>
 
-    <div style="text-align: left;">
-        <img src="/assets/images/rug.png" alt="Rijksuniversiteit Groningen" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
-        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Rijksuniversiteit Groningen (RUG) - Campus Fryslân</h3>
+    <div style="text-align: left; display: flex; flex-direction: column;">
+        <img src="/assets/images/rug.png" alt="Rijksuniversiteit Groningen" style="width: 100%; max-width: 300px; height: auto; margin-bottom: 1rem;">
+        <h3 style="font-size: 1.2rem; margin: 0.5rem 0;">Rijksuniversiteit Groningen (RUG) - Campus Fryslân</h3>
     </div>
 
-    <div style="text-align: left;">
-        <img src="/assets/images/add.png" alt="Algorithms, Data & Democracy" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
-        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Algorithms, Data & Democracy</h3>
+    <div style="text-align: left; display: flex; flex-direction: column;">
+        <img src="/assets/images/add.png" alt="Algorithms, Data & Democracy" style="width: 100%; max-width: 300px; height: auto; margin-bottom: 1rem;">
+        <h3 style="font-size: 1.2rem; margin: 0.5rem 0;">Algorithms, Data & Democracy</h3>
     </div>
 </div>
