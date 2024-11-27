@@ -3,8 +3,6 @@ layout: home
 title: Who are we
 ---
 
-# About
-
 ## Project Team
 
 <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; max-width: 100%; margin: 0 auto; padding: 0 1rem;">
@@ -78,5 +76,39 @@ title: Who are we
         <div>
             <a href="https://www.linkedin.com/in/dariorodighiero/" style="color: #ff0000; text-decoration: underline;">LinkedIn</a>
         </div>
+    </div>
+</div>
+
+## Affiliations
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; max-width: 100%; margin: 2rem auto; padding: 0 1rem;">
+    <div style="text-align: left;">
+        <img src="/assets/images/aau.jpg" alt="Aalborg Universitet" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
+        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Aalborg Universitet (AAU)</h3>
+    </div>
+
+    <div style="text-align: left;">
+        <img src="/assets/images/tantlab.jpg" alt="Tantlab" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
+        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Tantlab</h3>
+    </div>
+
+    <div style="text-align: left;">
+        <img src="/assets/images/dtu.jpg" alt="Danmarks Tekniske Universitet" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
+        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Danmarks Tekniske Universitet (DTU)</h3>
+    </div>
+
+    <div style="text-align: left;">
+        <img src="/assets/images/echolab.jpg" alt="ECHO lab" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
+        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">ECHO lab</h3>
+    </div>
+
+    <div style="text-align: left;">
+        <img src="/assets/images/rug.jpg" alt="Rijksuniversiteit Groningen" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
+        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Rijksuniversiteit Groningen (RUG) - Campus Fryslân</h3>
+    </div>
+
+    <div style="text-align: left;">
+        <img src="/assets/images/add.jpg" alt="Algorithms, Data & Democracy" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
+        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Algorithms, Data & Democracy</h3>
     </div>
 </div>
