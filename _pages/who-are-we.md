@@ -83,32 +83,32 @@ title: Who are we
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; max-width: 100%; margin: 2rem auto; padding: 0 1rem;">
     <div style="text-align: left;">
-        <img src="/assets/images/aau.jpg" alt="Aalborg Universitet" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
+        <img src="/assets/images/aau.png" alt="Aalborg Universitet" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
         <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Aalborg Universitet (AAU)</h3>
     </div>
 
     <div style="text-align: left;">
-        <img src="/assets/images/tantlab.jpg" alt="Tantlab" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
+        <img src="/assets/images/tantlab.png" alt="Tantlab" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
         <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Tantlab</h3>
     </div>
 
     <div style="text-align: left;">
-        <img src="/assets/images/dtu.jpg" alt="Danmarks Tekniske Universitet" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
+        <img src="/assets/images/dtu.png" alt="Danmarks Tekniske Universitet" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
         <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Danmarks Tekniske Universitet (DTU)</h3>
     </div>
 
     <div style="text-align: left;">
-        <img src="/assets/images/echolab.jpg" alt="ECHO lab" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
+        <img src="/assets/images/echolab.png" alt="ECHO lab" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
         <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">ECHO lab</h3>
     </div>
 
     <div style="text-align: left;">
-        <img src="/assets/images/rug.jpg" alt="Rijksuniversiteit Groningen" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
+        <img src="/assets/images/rug.png" alt="Rijksuniversiteit Groningen" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
         <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Rijksuniversiteit Groningen (RUG) - Campus Fryslân</h3>
     </div>
 
     <div style="text-align: left;">
-        <img src="/assets/images/add.jpg" alt="Algorithms, Data & Democracy" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
+        <img src="/assets/images/add.png" alt="Algorithms, Data & Democracy" style="width: 100%; height: auto; margin-bottom: 0.5rem;">
         <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Algorithms, Data & Democracy</h3>
     </div>
 </div>
