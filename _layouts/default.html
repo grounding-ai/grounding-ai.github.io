@@ -6,22 +6,40 @@
   </head>
 
   <body>
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    <!-- Navigation bar -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+          {{ site.title }}
+        </a>
+        <ul class="navbar-menu">
+          {% for page in site.pages %}
+            {% if page.path in site.header_pages %}
+              <li class="navbar-item">
+                <a class="navbar-link" href="{{ page.url | relative_url }}">
+                  {{ page.title | escape }}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
 
+    <!-- Main content -->
     <div class="main-content">
       {{ content }}
     </div>
 
+    <!-- Footer -->
     {% if site.layout_settings.enable_footer %}
-      <div class="page__footer">
-        <footer>
-          {% include footer/custom.html %}
-          {% include footer.html %}
-        </footer>
-      </div>
+      <footer class="footer">
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
     {% endif %}
 
+    <!-- Scripts -->
     {% if site.layout_settings.enable_scripts %}
       {% include scripts.html %}
     {% endif %}
