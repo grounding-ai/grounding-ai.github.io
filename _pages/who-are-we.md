@@ -8,7 +8,7 @@ title: Who are we
 <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; max-width: 100%; margin: 0 auto; padding: 0 1rem;">
     <div style="text-align: left;">
         <img src="/assets/images/Anders.jpg" alt="Anders Munk" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; margin-bottom: 0.5rem;">
-        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Anders Kristian Munk</h3>
+        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Anders Munk</h3>
         <p style="color: #666; margin: 0.5rem 0;">DTU, ECHOlab</p>
         <div>
             <a href="https://www.linkedin.com/in/akmunk/" style="color: #ff0000; text-decoration: underline;">LinkedIn</a>
@@ -35,7 +35,7 @@ title: Who are we
 
     <div style="text-align: left;">
         <img src="/assets/images/Johan.jpg" alt="Johan Søltoft" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; margin-bottom: 0.5rem;">
-        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Johan Irving Søltoft</h3>
+        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Johan Søltoft</h3>
         <p style="color: #666; margin: 0.5rem 0;">DTU, ECHOlab</p>
         <div>
             <a href="https://www.linkedin.com/in/johanirving/" style="color: #ff0000; text-decoration: underline;">LinkedIn</a>
@@ -44,7 +44,7 @@ title: Who are we
 
     <div style="text-align: left;">
         <img src="/assets/images/Ainoa.jpg" alt="Ainoa Pubill" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; margin-bottom: 0.5rem;">
-        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Ainoa Pubill Unzeta</h3>
+        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Ainoa Pubill</h3>
         <p style="color: #666; margin: 0.5rem 0;">DTU, ECHOlab</p>
         <div>
             <a href="https://www.linkedin.com/in/ainoa-pubill-174186161/" style="color: #ff0000; text-decoration: underline;">LinkedIn</a>
@@ -62,7 +62,7 @@ title: Who are we
 
     <div style="text-align: left;">
         <img src="/assets/images/Barbara.png" alt="Barbara Carreras" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; margin-bottom: 0.5rem;">
-        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Barbara Nino Carreras</h3>
+        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Barbara Carreras</h3>
         <p style="color: #666; margin: 0.5rem 0;">DTU, ECHOlab</p>
         <div>
             <a href="https://www.linkedin.com/in/barbaraninocarreras/" style="color: #ff0000; text-decoration: underline;">LinkedIn</a>
