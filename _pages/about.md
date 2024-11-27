@@ -1,145 +1,90 @@
-<html>
-<head>
-<style>
-body {
-    margin: 0;
-    padding: 0 2rem;
-    width: 100%;
-    max-width: 100vw;
-    box-sizing: border-box;
-}
+---
+layout: home
+title: About
+---
 
-.team-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    width: 100%;
-    padding: 2rem 0;
-}
+# About
 
-.team-member {
-    text-align: center;
-    width: 100%;
-}
+## Project Team
 
-.team-member img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin-bottom: 1rem;
-    border-radius: 5px;
-}
-
-.team-member h2 {
-    font-size: 1.2rem;
-    margin: 0.5rem 0;
-}
-
-.team-member p {
-    margin: 0.5rem 0;
-    color: #666;
-}
-
-.social-links {
-    margin-top: 0.5rem;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.social-links a {
-    color: #ff0000;
-    text-decoration: underline;
-}
-
-</style>
-</head>
-<body>
-
-<h1>About</h1>
-<h2>Project Team</h2>
-
-<div class="team-grid">
-    <div class="team-member">
-        <h2>Anders Kristian Munk</h2>
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; max-width: 100%; margin: 0 auto;">
+    <div>
+        <h3>Anders Kristian Munk</h3>
         <p>DTU, ECHO lab</p>
-        <div class="social-links">
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
-            <a href="#">Website</a>
+        <div>
+            <a href="#" style="color: #ff0000; margin-right: 1rem;">LinkedIn</a>
+            <a href="#" style="color: #ff0000; margin-right: 1rem;">Twitter</a>
+            <a href="#" style="color: #ff0000;">Website</a>
         </div>
     </div>
 
-    <div class="team-member">
-        <h2>Mathieu Jacomy</h2>
+    <div>
+        <h3>Mathieu Jacomy</h3>
         <p>AAU, Tantlab, ADD</p>
-        <div class="social-links">
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
-            <a href="#">Website</a>
+        <div>
+            <a href="#" style="color: #ff0000; margin-right: 1rem;">LinkedIn</a>
+            <a href="#" style="color: #ff0000; margin-right: 1rem;">Twitter</a>
+            <a href="#" style="color: #ff0000;">Website</a>
         </div>
     </div>
 
-    <div class="team-member">
-        <h2>Matilde Ficozzi</h2>
+    <div>
+        <h3>Matilde Ficozzi</h3>
         <p>AAU, Tantlab, ADD, RUG</p>
-        <div class="social-links">
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
-            <a href="#">Website</a>
+        <div>
+            <a href="#" style="color: #ff0000; margin-right: 1rem;">LinkedIn</a>
+            <a href="#" style="color: #ff0000; margin-right: 1rem;">Twitter</a>
+            <a href="#" style="color: #ff0000;">Website</a>
         </div>
     </div>
 
-    <div class="team-member">
-        <h2>Johan Irving Søltoft</h2>
+    <div>
+        <h3>Johan Irving Søltoft</h3>
         <p>DTU, ECHO lab</p>
-        <div class="social-links">
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
-            <a href="#">Website</a>
+        <div>
+            <a href="#" style="color: #ff0000; margin-right: 1rem;">LinkedIn</a>
+            <a href="#" style="color: #ff0000; margin-right: 1rem;">Twitter</a>
+            <a href="#" style="color: #ff0000;">Website</a>
         </div>
     </div>
 
-    <div class="team-member">
-        <h2>Ainoa Pubill Unzeta</h2>
+    <div>
+        <h3>Ainoa Pubill Unzeta</h3>
         <p>DTU, ECHO lab</p>
-        <div class="social-links">
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
-            <a href="#">Website</a>
+        <div>
+            <a href="#" style="color: #ff0000; margin-right: 1rem;">LinkedIn</a>
+            <a href="#" style="color: #ff0000; margin-right: 1rem;">Twitter</a>
+            <a href="#" style="color: #ff0000;">Website</a>
         </div>
     </div>
 
-    <div class="team-member">
-        <h2>Sarah Feldes</h2>
+    <div>
+        <h3>Sarah Feldes</h3>
         <p>DTU, ECHO lab</p>
-        <div class="social-links">
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
-            <a href="#">Website</a>
+        <div>
+            <a href="#" style="color: #ff0000; margin-right: 1rem;">LinkedIn</a>
+            <a href="#" style="color: #ff0000; margin-right: 1rem;">Twitter</a>
+            <a href="#" style="color: #ff0000;">Website</a>
         </div>
     </div>
 
-    <div class="team-member">
-        <h2>Barbara Nino Carreras</h2>
+    <div>
+        <h3>Barbara Nino Carreras</h3>
         <p>DTU, ECHO lab</p>
-        <div class="social-links">
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
-            <a href="#">Website</a>
+        <div>
+            <a href="#" style="color: #ff0000; margin-right: 1rem;">LinkedIn</a>
+            <a href="#" style="color: #ff0000; margin-right: 1rem;">Twitter</a>
+            <a href="#" style="color: #ff0000;">Website</a>
         </div>
     </div>
 
-    <div class="team-member">
-        <h2>Dario Rodighiero</h2>
+    <div>
+        <h3>Dario Rodighiero</h3>
         <p>RUG</p>
-        <div class="social-links">
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
-            <a href="#">Website</a>
+        <div>
+            <a href="#" style="color: #ff0000; margin-right: 1rem;">LinkedIn</a>
+            <a href="#" style="color: #ff0000; margin-right: 1rem;">Twitter</a>
+            <a href="#" style="color: #ff0000;">Website</a>
         </div>
     </div>
 </div>
-
-</body>
-</html>
