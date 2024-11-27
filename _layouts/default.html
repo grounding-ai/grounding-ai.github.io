@@ -1,38 +1,29 @@
----
-layout: compress
----
-
-{% include base_path %}
-
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="{{ site.lang | default: 'en' }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
   <body>
-
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <div class="layout-container">
-      <div class="sidebar">
-        <!-- Sidebar content here -->
-      </div>
-      <div class="main-content">
-        {{ content }}
-      </div>
+    <div class="main-content">
+      {{ content }}
     </div>
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
+    {% if site.layout_settings.enable_footer %}
+      <div class="page__footer">
+        <footer>
+          {% include footer/custom.html %}
+          {% include footer.html %}
+        </footer>
+      </div>
+    {% endif %}
 
-    {% include scripts.html %}
-
+    {% if site.layout_settings.enable_scripts %}
+      {% include scripts.html %}
+    {% endif %}
   </body>
 </html>
