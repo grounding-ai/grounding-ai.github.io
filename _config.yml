@@ -18,6 +18,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-archives
   - jekyll-paginate
+paginate: 0
 
 include:
   - _pages
