@@ -19,6 +19,9 @@ plugins:
   - jekyll-archives
   - jekyll-paginate
 
+include:
+  - _pages
+
 # Navigation settings
 header_pages:
   - index.md
