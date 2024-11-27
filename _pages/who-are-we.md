@@ -20,7 +20,7 @@ title: Who are we
     </div>
 
     <div style="text-align: left;">
-        <img src="/assets/images/Mathieu.jpg" alt="Mathieu Jacomy" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; margin-bottom: 0.5rem;">
+        <img src="/assets/images/Mathieu.jpeg" alt="Mathieu Jacomy" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; margin-bottom: 0.5rem;">
         <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Mathieu Jacomy</h3>
         <p style="color: #666; margin: 0.5rem 0;">AAU, Tantlab, ADD</p>
         <div>
@@ -31,7 +31,7 @@ title: Who are we
     </div>
 
     <div style="text-align: left;">
-        <img src="/assets/images/Matilde.jpg" alt="Matilde Ficozzi" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; margin-bottom: 0.5rem;">
+        <img src="/assets/images/Mathilde.jpg" alt="Matilde Ficozzi" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; margin-bottom: 0.5rem;">
         <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Matilde Ficozzi</h3>
         <p style="color: #666; margin: 0.5rem 0;">AAU, Tantlab, ADD, RUG</p>
         <div>
@@ -75,7 +75,7 @@ title: Who are we
     </div>
 
     <div style="text-align: left;">
-        <img src="/assets/images/Barbara.jpg" alt="Barbara Nino Carreras" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; margin-bottom: 0.5rem;">
+        <img src="/assets/images/Barbara.png" alt="Barbara Nino Carreras" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; margin-bottom: 0.5rem;">
         <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Barbara Nino Carreras</h3>
         <p style="color: #666; margin: 0.5rem 0;">DTU, ECHO lab</p>
         <div>
