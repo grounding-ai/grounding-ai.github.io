@@ -9,12 +9,15 @@
     <!-- Navigation bar -->
     <nav class="navbar">
       <div class="navbar-container">
+        <!-- Site Title -->
         <a class="navbar-brand" href="{{ site.baseurl }}/">
           {{ site.title }}
         </a>
+        
+        <!-- Navigation Links -->
         <ul class="navbar-menu">
           {% for page in site.pages %}
-            {% if page.path in site.header_pages %}
+            {% if site.header_pages contains page.path %}
               <li class="navbar-item">
                 <a class="navbar-link" href="{{ page.url | relative_url }}">
                   {{ page.title | escape }}
