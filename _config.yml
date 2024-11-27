@@ -25,12 +25,10 @@ highlighter: rouge
 include:
   - _pages
 
-# Navigation settings
-header_pages:
-  - index.md
-  - about.md
-  - methodology.md
-  - who-are-we.md
+# Layout settings
+layout_settings:
+  enable_footer: true
+  enable_scripts: true
 
 # Social links (optional)
 social_links:
