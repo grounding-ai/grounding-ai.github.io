@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: home
 title: About
-permalink: /about/
 ---
 
 # About the Project
