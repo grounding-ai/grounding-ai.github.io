@@ -58,15 +58,18 @@
         <p class="navbar-subtitle">AI Atlas of AI</p>
       </div>
       <ul class="navbar-menu">
-        {% for page in site.pages %}
-          {% if site.header_pages contains page.path %}
-            <li class="navbar-item">
-              <a class="navbar-link" href="{{ page.url | relative_url }}">
-                {{ page.title | escape }}
-              </a>
-            </li>
-          {% endif %}
-        {% endfor %}
+        <li class="navbar-item">
+          <a class="navbar-link" href="/">Home</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="/_pages/about">About</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="/_pages/who-are-we">Who We Are</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="/_pages/methodology">Methodology</a>
+        </li>
       </ul>
     </header>
 
