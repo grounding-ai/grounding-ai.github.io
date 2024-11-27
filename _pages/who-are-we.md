@@ -82,27 +82,22 @@ title: Who are we
 ## Affiliations
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 4rem; max-width: 100%; margin: 4rem auto; padding: 0 2rem;">
-    <div style="text-align: left; display: flex; flex-direction: column;">
-        <img src="/assets/images/aau.png" alt="Aalborg Universitet" style="width: 100%; max-width: 300px; height: auto; margin-bottom: 1rem;">
+    <div style="text-align: center; display: flex; align-items: center; justify-content: center;">
+        <img src="/assets/images/aau.png" alt="Aalborg Universitet" style="width: 250px; height: 150px; object-fit: contain;">
     </div>
-
-    <div style="text-align: left; display: flex; flex-direction: column;">
-        <img src="/assets/images/tantlab.png" alt="Tantlab" style="width: 100%; max-width: 300px; height: auto; margin-bottom: 1rem;">
+    <div style="text-align: center; display: flex; align-items: center; justify-content: center;">
+        <img src="/assets/images/tantlab.png" alt="Tantlab" style="width: 250px; height: 150px; object-fit: contain;">
     </div>
-
-    <div style="text-align: left; display: flex; flex-direction: column;">
-        <img src="/assets/images/dtu.png" alt="Danmarks Tekniske Universitet" style="width: 100%; max-width: 300px; height: auto; margin-bottom: 1rem;">
+    <div style="text-align: center; display: flex; align-items: center; justify-content: center;">
+        <img src="/assets/images/dtu.png" alt="Danmarks Tekniske Universitet" style="width: 250px; height: 150px; object-fit: contain;">
     </div>
-
-    <div style="text-align: left; display: flex; flex-direction: column;">
-        <img src="/assets/images/echolab.png" alt="ECHO lab" style="width: 100%; max-width: 300px; height: auto; margin-bottom: 1rem;">
+    <div style="text-align: center; display: flex; align-items: center; justify-content: center;">
+        <img src="/assets/images/echolab.png" alt="ECHO lab" style="width: 250px; height: 150px; object-fit: contain;">
     </div>
-
-    <div style="text-align: left; display: flex; flex-direction: column;">
-        <img src="/assets/images/rug.png" alt="Rijksuniversiteit Groningen" style="width: 100%; max-width: 300px; height: auto; margin-bottom: 1rem;">
+    <div style="text-align: center; display: flex; align-items: center; justify-content: center;">
+        <img src="/assets/images/rug.png" alt="Rijksuniversiteit Groningen" style="width: 250px; height: 150px; object-fit: contain;">
     </div>
-
-    <div style="text-align: left; display: flex; flex-direction: column;">
-        <img src="/assets/images/add.png" alt="Algorithms, Data & Democracy" style="width: 100%; max-width: 300px; height: auto; margin-bottom: 1rem;">
+    <div style="text-align: center; display: flex; align-items: center; justify-content: center;">
+        <img src="/assets/images/add.png" alt="Algorithms, Data & Democracy" style="width: 250px; height: 150px; object-fit: contain;">
     </div>
 </div>
