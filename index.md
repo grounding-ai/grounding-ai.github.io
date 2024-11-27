@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "Grounding AI"
+author_profile: false
 nav: 
   - About
   - Methodology
