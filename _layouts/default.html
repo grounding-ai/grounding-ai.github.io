@@ -3,40 +3,81 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <style>
+      /* Inline CSS for quick updates */
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f5e6d0; /* Beige background */
+        padding: 15px 20px;
+      }
+
+      .navbar-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #000; /* Black for title */
+        margin: 0;
+      }
+
+      .navbar-subtitle {
+        font-size: 0.875rem;
+        color: #555; /* Dark grey subtitle */
+        margin: 0;
+      }
+
+      .navbar-menu {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+
+      .navbar-item {
+        margin-left: 20px;
+      }
+
+      .navbar-link {
+        color: #000; /* Black text */
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: normal;
+      }
+
+      .navbar-link:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
 
   <body>
     <!-- Navigation bar -->
-    <nav class="navbar">
-      <div class="navbar-container">
-        <!-- Site Title -->
-        <a class="navbar-brand" href="{{ site.baseurl }}/">
-          {{ site.title }}
-        </a>
-        
-        <!-- Navigation Links -->
-        <ul class="navbar-menu">
-          {% for page in site.pages %}
-            {% if site.header_pages contains page.path %}
-              <li class="navbar-item">
-                <a class="navbar-link" href="{{ page.url | relative_url }}">
-                  {{ page.title | escape }}
-                </a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
+    <header class="navbar">
+      <div class="navbar-left">
+        <p class="navbar-title">Grounding AI</p>
+        <p class="navbar-subtitle">AI Atlas of AI</p>
       </div>
-    </nav>
+      <ul class="navbar-menu">
+        {% for page in site.pages %}
+          {% if site.header_pages contains page.path %}
+            <li class="navbar-item">
+              <a class="navbar-link" href="{{ page.url | relative_url }}">
+                {{ page.title | escape }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </header>
 
     <!-- Main content -->
-    <div class="main-content">
+    <main class="main-content">
       {{ content }}
-    </div>
+    </main>
 
     <!-- Footer -->
     {% if site.layout_settings.enable_footer %}
-      <footer class="footer">
+      <footer>
         {% include footer/custom.html %}
         {% include footer.html %}
       </footer>
