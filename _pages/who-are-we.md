@@ -32,6 +32,14 @@ title: Who are we
             <a href="https://www.linkedin.com/in/matilde-ficozzi/" style="color: #ff0000; text-decoration: underline;">LinkedIn</a>
         </div>
     </div>
+    <div style="text-align: left;">
+        <img src="/assets/images/Dario.png" alt="Dario Rodighiero" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; margin-bottom: 0.5rem;">
+        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Dario Rodighiero</h3>
+        <p style="color: #666; margin: 0.5rem 0;">RUG</p>
+        <div>
+            <a href="https://www.linkedin.com/in/dariorodighiero/" style="color: #ff0000; text-decoration: underline;">LinkedIn</a>
+        </div>
+    </div>
 
     <div style="text-align: left;">
         <img src="/assets/images/Johan.jpg" alt="Johan Søltoft" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; margin-bottom: 0.5rem;">
@@ -66,15 +74,6 @@ title: Who are we
         <p style="color: #666; margin: 0.5rem 0;">DTU, ECHOlab</p>
         <div>
             <a href="https://www.linkedin.com/in/barbaraninocarreras/" style="color: #ff0000; text-decoration: underline;">LinkedIn</a>
-        </div>
-    </div>
-
-    <div style="text-align: left;">
-        <img src="/assets/images/Dario.png" alt="Dario Rodighiero" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; margin-bottom: 0.5rem;">
-        <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Dario Rodighiero</h3>
-        <p style="color: #666; margin: 0.5rem 0;">RUG</p>
-        <div>
-            <a href="https://www.linkedin.com/in/dariorodighiero/" style="color: #ff0000; text-decoration: underline;">LinkedIn</a>
         </div>
     </div>
 </div>
