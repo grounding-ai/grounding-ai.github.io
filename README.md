@@ -25,6 +25,7 @@ https://grounding-ai.github.io/
 - `default.html`: The main template file used across the site
 
 ### Pages (`_pages/`)
+- `index.md`: Homepage content
 - `about.md`: Information about the project/organization
 - `methodology.md`: Detailed methodology documentation
 - `who-are-we.md`: Team or organization information
@@ -37,7 +38,6 @@ https://grounding-ai.github.io/
 ### Configuration
 - `_config.yml`: Main configuration file for the static site
 - `LICENSE`: Project license information
-- `index.md`: Homepage content
 
 ## Making Changes
 
