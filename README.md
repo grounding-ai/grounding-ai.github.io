@@ -4,7 +4,6 @@
 ```
 ├── _layouts/
 │   ├── default.html
-│   └── test
 ├── _pages/
 │   ├── about.md
 │   ├── methodology.md
