@@ -19,8 +19,7 @@
 
 ### Layouts (`_layouts/`)
 - `default.html`: The main template file used across the site
-- `test`: A test layout file (purpose to be specified)
-
+- 
 ### Pages (`_pages/`)
 - `about.md`: Information about the project/organization
 - `methodology.md`: Detailed methodology documentation
