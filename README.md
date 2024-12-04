@@ -26,9 +26,9 @@ https://grounding-ai.github.io/
 
 ### Pages (`_pages/`)
 - `index.md`: Homepage content
-- `about.md`: Information about the project/organization
-- `methodology.md`: Detailed methodology documentation
-- `who-are-we.md`: Team or organization information
+- `about.md`: Information about the project
+- `methodology.md`: Methodology documentation
+- `who-are-we.md`: Team information
 
 ### Assets (`assets/`)
 - `css/`: Contains stylesheets
@@ -49,9 +49,8 @@ https://grounding-ai.github.io/
 ### To update styling:
 1. Go to `assets/css/style.css`
 2. Make your CSS changes
-3. Test locally before pushing
 
 ### To modify layouts:
 1. Find the appropriate template in `_layouts/`
 2. Make your HTML/template changes
-3. Test across different pages
+
