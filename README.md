@@ -1,60 +1,55 @@
-# Current status
+# Grounding AI 
 
-- Edit the index.md, if you want to change the page [Grounding AI](https://grounding-ai.github.io/)
+## Project Structure
+```
+├── _layouts/
+│   ├── default.html
+│   └── test
+├── _pages/
+│   ├── about.md
+│   ├── methodology.md
+│   └── who-are-we.md
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   └── images/
+└── _config.yml
+```
 
-We are in the process of printing the *Grounded AI Map*.
-Upcoming: workshop with the Danish Technical Museum for a 2025 exhibition.
+## File Structure Explained
 
-# Latest news
+### Layouts (`_layouts/`)
+- `default.html`: The main template file used across the site
+- `test`: A test layout file (purpose to be specified)
 
-To do.
+### Pages (`_pages/`)
+- `about.md`: Information about the project/organization
+- `methodology.md`: Detailed methodology documentation
+- `who-are-we.md`: Team or organization information
 
-# About
+### Assets (`assets/`)
+- `css/`: Contains stylesheets
+  - `style.css`: Main stylesheet for the project
+- `images/`: Store all project images here
 
-## What is this project about?
+### Configuration
+- `_config.yml`: Main configuration file for the static site
+- `LICENSE`: Project license information
+- `index.md`: Homepage content
 
-To do.
+## Making Changes
 
-## Who are we
+### To modify pages:
+1. Navigate to the `_pages` directory
+2. Edit the relevant markdown files
+3. Commit and push your changes
 
-A group of researchers from Aalborg University and the Danish Technical University.
+### To update styling:
+1. Go to `assets/css/style.css`
+2. Make your CSS changes
+3. Test locally before pushing
 
-In collaboration with: 
-
-[AAU TantLab](https://www.en.culture.aau.dk/research/research-groups/tantlab)
-
-[ECHO Lab - The Observatory for Human Centered Engineering]
-
-[Dario Rodighiero](https://dariorodighiero.com) (University of Groningnen) 
-
-[ADD (Algorithms, Data, and Democracy)](https://algorithms.dk)
-
-
-
-## Sponsors
-
-To do.
-
-# Downloads
-
-To do.
-
-# Methodology
-
-To do.
-
-# Contact us
-
-To do.
-
-# Test
-
-<div>
-  <h2>I am testing here writing HTML within Markdown, as it should be possible.</h2>
-  <p>Paragraph lorem ipsum dolor sit amet</p>
-  <p>Other paragraph with <strong>bold</strong>, <em>italic</em> etc.</p>
-  <p style="font-family:Monospace">Test with inline style</p>
-  <p>Test with an image: <img src="/Images/logo.png"></p>
-</div>
-
-
+### To modify layouts:
+1. Find the appropriate template in `_layouts/`
+2. Make your HTML/template changes
+3. Test across different pages
