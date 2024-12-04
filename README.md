@@ -23,7 +23,7 @@ https://grounding-ai.github.io/
 
 ### Layouts (`_layouts/`)
 - `default.html`: The main template file used across the site
-- 
+
 ### Pages (`_pages/`)
 - `about.md`: Information about the project/organization
 - `methodology.md`: Detailed methodology documentation
