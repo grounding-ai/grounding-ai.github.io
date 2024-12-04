@@ -1,5 +1,9 @@
 # Grounding AI 
 
+🌐 Access the current draft Website
+
+https://grounding-ai.github.io/
+
 ## Project Structure
 ```
 ├── _layouts/
