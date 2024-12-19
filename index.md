@@ -11,17 +11,17 @@ title:
 }
 
 h1 {
-    margin-bottom: 0 !important;
-    padding: 20px !important;
+    display: none !important; /* Hide the repeated title since it's already in header */
 }
 
 .image-wrapper {
     width: 100vw;
-    height: calc(100vh - 150px); /* Adjust 150px based on your header + title height */
+    height: calc(100vh - 100px); /* Reduced from 150px to 100px for just header height */
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     overflow: hidden;
+    margin-top: 0 !important; /* Remove any top margin */
 }
 
 .image-wrapper img {
@@ -31,8 +31,16 @@ h1 {
     display: block;
 }
 
+/* Hide recent posts section */
 .recent-posts {
-    margin-top: 20px;
+    display: none !important;
+}
+
+/* Remove any additional padding/margins */
+body {
+    overflow-x: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 </style>
 
