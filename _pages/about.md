@@ -25,6 +25,7 @@ When papers are close to each other it means they are similar. They ask the same
 
 ### Wider subject areas
 In some areas of the map the papers are clustered very close to each other. This is a sign that there is an overarching theme or a technology that they all address in different ways. These wider subject areas have no clear borders and tend to flow into each other, but you can notice how the subjects change character as you move across the map.
+
 ![howtoread4](/assets/images/HTRM-4.png)
 
 
