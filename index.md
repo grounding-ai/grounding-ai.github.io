@@ -2,11 +2,6 @@
 layout: home
 title: "Grounding AI"
 ---
-
-<head>
-    <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-
 <div class="content-wrapper">
   <div>
     <h2>I am testing here writing HTML within Markdown, as it should be possible.</h2>
