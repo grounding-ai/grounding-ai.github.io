@@ -3,20 +3,36 @@ layout: home
 title: "Grounding AI"
 ---
 <style>
-h1, h2 {
+.main-content, .page-content {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100vw !important;
+    max-width: none !important;
+}
+
+h1 {
     margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
+    padding: 20px !important;
 }
 
 .image-wrapper {
-    margin-top: 20px;  /* Adjust this value to control space below title */
-    width: 100%;
+    width: 100vw;
+    height: calc(100vh - 150px); /* Adjust 150px based on your header + title height */
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
 }
 
 .image-wrapper img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: contain;
     display: block;
+}
+
+.recent-posts {
+    margin-top: 20px;
 }
 </style>
 
