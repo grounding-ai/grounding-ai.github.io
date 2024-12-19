@@ -3,6 +3,6 @@ layout: home
 title: "Grounding AI"
 ---
 
-<div>
-  <img src="/assets/images/HTRM-4.png" class="fullscreen-image">
+<div class="image-container">
+  <img src="/assets/images/HTRM-4.png" class="fullscreen-image" alt="HTRM visualization">
 </div>
