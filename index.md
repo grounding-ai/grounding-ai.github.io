@@ -15,3 +15,9 @@ title: "Grounding AI"
 
 
 
+<div class="fullscreen-image">
+    <img src="/assets/images/logo.png" alt="Full Screen Image">
+</div>
+
+
+
