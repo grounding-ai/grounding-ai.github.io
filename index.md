@@ -14,7 +14,7 @@ title: "Grounding AI"
 </div>
 
 
-
+<link rel="stylesheet" href="css/style.css">
 <div class="fullscreen-image">
     <img src="/assets/images/logo.png" alt="Full Screen Image">
 </div>
