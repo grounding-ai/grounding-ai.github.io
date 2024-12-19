@@ -5,24 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fullscreen Image</title>
     <style>
-        /* Reset body and html styles */
+        /* Reset styles */
         html, body {
             margin: 0;
             padding: 0;
-            height: 100%;
         }
 
-        /* Fullscreen image container */
+        /* Header styling */
+        header {
+            background-color: #f5e6d0; /* Match the beige color */
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+
+        header nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #b04b4b; /* Match the red link color */
+            font-weight: bold;
+        }
+
+        /* Fullscreen image section */
         .fullscreen-image {
-            position: fixed;
-            top: 0;
-            left: 0;
+            position: relative;
             width: 100%;
-            height: 100%;
+            height: calc(100vh - 70px); /* Adjust to account for the header height */
             overflow: hidden;
         }
 
-        /* Styling the image */
         .fullscreen-image img {
             position: absolute;
             top: 50%;
@@ -33,6 +50,19 @@
             object-fit: cover;
         }
     </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Grounding AI</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#who-we-are">Who We Are</a>
+            <a href="#methodology">Methodology</a>
+        </nav>
+    </header>
+
 </head>
 <body>
     <div class="fullscreen-image">
