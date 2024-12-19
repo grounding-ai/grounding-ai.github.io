@@ -1,23 +1,49 @@
-.fullscreen-image {
-  width: 100vw;
-  height: calc(100vh - 100px); /* Subtracting navbar height */
-  object-fit: cover;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.main-content {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
+/* Reset and base styles */
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   background-color: #f5e6d0;
+}
+
+/* Navigation styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #f5e6d0;
+  z-index: 1000;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+/* Main content area */
+.main-content {
+  margin-top: 80px; /* Adjust based on your navbar height */
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Image styles */
+.fullscreen-image {
+  width: 100vw;
+  height: calc(100vh - 80px); /* Viewport height minus navbar height */
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  display: block;
+  max-width: none;
+}
+
+/* Container for the image */
+.image-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h1, h2, .recent-posts {
+  padding: 0 20px;
 }
