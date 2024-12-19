@@ -3,7 +3,6 @@ layout: home
 title: Methodology
 ---
 
-
-To do.
+![Methodology](/assets/images/Methodology1.png)
 
 
