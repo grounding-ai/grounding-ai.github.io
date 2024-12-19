@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Grounding AI"
+title: 
 ---
 <style>
 .main-content, .page-content {
