@@ -3,13 +3,11 @@ layout: home
 title: About the Project
 ---
 
-Grounded AI, is a giant visualization of what AI and algorithms are doing in science, based on 2 million scientific papers retrieved from Scopus. In popular media, AI is often simplified as "good" or "bad," moving between "hype" and "fear." In scientific fields, however, algorithmic developments are less sensational, often addressing issues that go unnoticed by the public. Rather than simplifying AI, this project invites public engagement to reflect on algorithms' broader impact.
+This map is the result of a research project that aims to ground AI. Literally: It puts the entire scientific literature on algorithms, machine learning, and artificial intelligence on the floor for you to walk on and explore.
 
-We are co-creating an interactive exhibition with data physicalization, user journeys, and chatbots as guides. Our goal is to make complex scientific networks relatable, providing a space for exploration and reflection.
+We talk a lot about AI, especially the spectacular, sensationalist and revolutionizing aspects of AI, but maybe we tend to forget the mundane ways in which it is already everywhere around us. From speech recognition to flight control or cybersecurity, from analyses of everything from tea quality and swim technique to hormone secretion and mammograms for diagnosing breast cancer, AI and machine learning algorithms already feature as a solution to a range of existing problems.
 
-## Current status
-We are in the process of printing the Grounded AI Map. Upcoming: workshop with the Danish Technical Museum for a 2025 exhibition.
-More to do.
+Sometimes, these applications cause harm or pose risks in ways that raise public concern. More often than not, they never become part of public discourse. Should they? We invite you to explore the multifaceted landscape of artificial intelligence and its associated algorithms, technologies and applications to help us figure out the answer.
 
 ## Sponsors
 
