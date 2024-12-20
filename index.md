@@ -11,17 +11,17 @@ title:
 }
 
 h1 {
-    display: none !important; /* Hide the repeated title since it's already in header */
+    display: none !important; 
 }
 
 .image-wrapper {
     width: 100vw;
-    height: calc(100vh - 100px); /* Reduced from 150px to 100px for just header height */
+    height: calc(100vh - 100px); 
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     overflow: hidden;
-    margin-top: 0 !important; /* Remove any top margin */
+    margin-top: 0 !important; 
 }
 
 .image-wrapper img {
@@ -36,7 +36,6 @@ h1 {
     display: none !important;
 }
 
-/* Remove any additional padding/margins */
 body {
     overflow-x: hidden;
     margin: 0 !important;
