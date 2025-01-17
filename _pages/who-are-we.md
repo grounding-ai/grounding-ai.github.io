@@ -37,6 +37,7 @@ title: Who are we
         <h3 style="font-size: 1.1rem; margin: 0.5rem 0;">Dario Rodighiero</h3>
         <p style="color: #666; margin: 0.5rem 0;">RUG</p>
         <div>
+            <br>
             <a href="https://www.linkedin.com/in/dariorodighiero/" style="color: #ff0000; text-decoration: underline;">LinkedIn</a>
         </div>
     </div>
