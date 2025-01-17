@@ -2,7 +2,7 @@
 layout: home
 title: 
 ---
-## ARTIFICIAL INTELLIGENCE IS EVERYWHERE AND ARTIFICIAL INTELLIGENCE IS NOWHERE
+## AI IS EVERYWHERE AND NOWHERE
 
 <style>
 .main-content, .page-content {
