@@ -29,6 +29,7 @@ https://grounding-ai.github.io/
 - `about.md`: Information about the project
 - `methodology.md`: Methodology documentation
 - `who-are-we.md`: Team information
+- `exhibitions`: Exhibition information
 
 ### Assets (`assets/`)
 - `css/`: Contains stylesheets
