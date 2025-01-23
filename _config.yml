@@ -4,12 +4,21 @@ description: AI Atlas of AI
 lang: en
 
 # URL settings
-baseurl: "" # Leave blank if deploying to root, e.g., username.github.io
+baseurl: ""
 url: "https://grounding-ai.github.io/"
 
 # Theme settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "custom"
+minimal_mistakes_skin: "default" # Using default skin instead of custom
+
+# Color customization
+minimal_mistakes_skin_dark: false
+colors:
+  background: "#ffffff"
+  text: "#687586"
+  primary: "#687586"
+  links: "#687586"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -18,27 +27,20 @@ plugins:
   - jekyll-archives
   - jekyll-paginate
 
-# Custom theme color
-sass:
-  sass_dir: _sass
-  style: compressed
-variables:
-  customColor: "#687586"
-
-# Disable recent posts
+# Site configuration
 entries_layout: grid
 show_excerpts: false
 include:
   - _pages
 
-# Navigation settings
+# Navigation
 header_pages:
   - index.md
   - about.md
   - methodology.md
   - who-are-we.md
 
-# Footer (optional)
+# Footer
 footer:
   links:
     - title: "About"
