@@ -5,12 +5,11 @@ lang: en
 
 # URL settings
 baseurl: "" # Leave blank if deploying to root, e.g., username.github.io
-url: "https://grounding-ai.github.io/" # Replace with your GitHub Pages site URL
+url: "https://grounding-ai.github.io/"
 
 # Theme settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "sunrise"
-
+minimal_mistakes_skin: "custom"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -19,10 +18,16 @@ plugins:
   - jekyll-archives
   - jekyll-paginate
 
+# Custom theme color
+sass:
+  sass_dir: _sass
+  style: compressed
+variables:
+  customColor: "#687586"
+
 # Disable recent posts
 entries_layout: grid
 show_excerpts: false
-
 include:
   - _pages
 
